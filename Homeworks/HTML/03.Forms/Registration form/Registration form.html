@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>University grid</title>
+    </head>
+    <body>
+        <form action="action.php"
+              method="get"></form>
+        <table border="1" cellspacing="0"
+        cellpadding = "1">
+            <tr>
+                <td>Last Name </td>
+                <td colspan="3"
+                >
+                    <input type="text"
+                    style="width: 480px">
+                </td>
+            </tr>
+            <tr>
+                <td>First Name </td>
+                <td colspan="3">
+                    <input type="text"
+                    style="width: 480px">
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td colspan="3">
+                    <textarea style="width: 460px">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>
+                    <input type="text"
+                    style="width: 380px">
+                </td>
+                <td>States</td>
+                <td width="10%">
+                    <input type="text"
+                    style="width: 50px">
+                </td>
+            </tr>
+            <tr>
+                <td>Zip/Postal Code</td>
+                <td colspan="3">
+                    <input type="text"
+                    style="width: 100px">
+                </td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td colspan="3">
+                    <select style="width: 200px">
+                        <option value="Bulgaria">Bulgaria</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Phone(country code, <br> area code, number)</td>
+                <td colspan="3">
+                    (+<input style="width: 75px" 
+                    type="text">)
+                     <input type="text"
+                            style="width: 75px"> -
+                    <input type="text"
+                           style="width: 75px">
+                </td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td colspan="3">
+                    <input type="email"
+                    style="width: 485px">
+                </td>
+            </tr>
+            <tr>
+                <td>Birth date</td>
+                <td colspan="3">Month
+                    <input type="text"
+                    style="width: 20px">
+                    Day 
+                    <input type="text"
+                    style="width: 20px">
+                    Year (4 digit)
+                    <input type="text"
+                    style="width: 40px"
+                    maxlength="4">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td colspan="3">
+                    <select>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Starting date</td>
+                <td>
+                    <input id="radio-1"
+                     type="radio"
+                    value="1"
+                    name="radios[]">
+                    <label for="radio-1">Spring 2006</label>
+                    <input id="radio-2" 
+                    type="radio"
+                    value="2"
+                    name="radios[]">
+                    <label for="radio-2">Summer 2006</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Comments/Questions</td>
+                <td colspan="3">
+                    <textarea cols="50" rows="6"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="lightblue" 
+                colspan="4"
+                style="height: 20px">
+                <button type="submit">Submit</button>
+                <input type="reset"
+                 value="Clear This Form">
+            </tr>
+        </table>
+    </body>
+</html>

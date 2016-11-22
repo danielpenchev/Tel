@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MaximalSum", "02.MaximalSum\02.MaximalSum.csproj", "{26018A37-4E60-43E1-9E1D-F108206C5B20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.FillTheMatrix", "01.FillTheMatrix\01.FillTheMatrix.csproj", "{BEE5A88C-E206-43F4-A766-C8E72AFB36E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SequenceInMatrix", "03.SequenceInMatrix\03.SequenceInMatrix.csproj", "{88086597-C06D-44E1-A542-0FDF1B4357ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26018A37-4E60-43E1-9E1D-F108206C5B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26018A37-4E60-43E1-9E1D-F108206C5B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26018A37-4E60-43E1-9E1D-F108206C5B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26018A37-4E60-43E1-9E1D-F108206C5B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE5A88C-E206-43F4-A766-C8E72AFB36E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE5A88C-E206-43F4-A766-C8E72AFB36E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE5A88C-E206-43F4-A766-C8E72AFB36E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE5A88C-E206-43F4-A766-C8E72AFB36E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88086597-C06D-44E1-A542-0FDF1B4357ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88086597-C06D-44E1-A542-0FDF1B4357ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88086597-C06D-44E1-A542-0FDF1B4357ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88086597-C06D-44E1-A542-0FDF1B4357ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

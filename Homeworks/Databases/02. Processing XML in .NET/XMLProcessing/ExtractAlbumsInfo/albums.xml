@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+  <album>
+    <name>The best of 90's</name>
+    <artist>Mixed compilation</artist>
+  </album>
+  <album>
+    <name>The best of retro chalga</name>
+    <artist>Kameliya</artist>
+  </album>
+  <album>
+    <name>The best of GRAFFA</name>
+    <artist>Vladi</artist>
+  </album>
+  <album>
+    <name>The Blueprint 3</name>
+    <artist>Jay-Z</artist>
+  </album>
+</albums>
